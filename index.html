@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Football Stats Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Link to Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <header>
+        <h1>Football Stats Dashboard</h1>
+    </header>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="bar-chart.html">Bar Chart</a></li>
+            <li><a href="bubble-chart.html">Bubble Chart</a></li>
+            <li><a href="line-chart.html">Line Chart</a></li>
+            <li><a href="scatter-plot.html">Scatter Plot</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area of the page -->
+    <div class="content">
+        <p>Welcome to the Football Stats Dashboard. Explore various data visualisations to gain insights into football statistics.</p>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/image1.jpeg" alt="Description">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/image2.jpeg" alt="Description">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/image3.jpeg" alt="Description">
+                </div>
+            </div>
+            <!-- Dynamic pagination for the swiper -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2024 Football Analytics Co. All rights reserved.</p>
+    </footer>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialise Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
