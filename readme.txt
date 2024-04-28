@@ -5,7 +5,7 @@ This project is a web-based visualisation of the 2020/2021 Premier League footba
 
 
 Data Source:
-The data was sourced from the official Premier League websites (link) and is used under the terms of their data usage policy.
+The data was sourced from the official Premier League websites https://footystats.org/download-stats-csv , https://www.kaggle.com/datasets/hugomathien/soccer and is used under the terms of their data usage policy.
 
 Setup Instructions:
 1. Ensure you have a modern web browser installed (Google Chrome, Firefox, Microsoft Edge).
