@@ -22,4 +22,4 @@ Troubleshooting:
 - Make sure all files from the project folder are kept in the same directory to ensure proper linkage.
 
 Contact Information:
-For help or more information, please contact [Your Name] at [Your Email].
+For help or more information, please contact Thando Tsebedu at thando.tsebedu@mycit.ie.
